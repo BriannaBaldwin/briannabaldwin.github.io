@@ -1,0 +1,16 @@
+@font-face {
+    font-family: 'poppinslight_italic';
+    src: url('../fonts/webfontkit-20201027-230033/poppins-lightitalic-webfont.woff2') format('woff2'),
+         url('../fonts/webfontkit-20201027-230033/poppins-lightitalic-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+.squirrel{
+    font-family: 'poppinslight_italic', sans-serif, "Courier New";
+    font-size: 1.2rem;
+}
+.google{
+    font-family: 'Syne Tactile', cursive;
+    font-size: 1.6rem;
+}
