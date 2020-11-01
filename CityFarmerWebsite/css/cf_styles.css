@@ -1,0 +1,75 @@
+/*Brianna Baldwin
+  Oct 29, 2020 */
+  
+  @font-face {
+    font-family: 'rubikregular';
+    src: url('rubik-regular-webfont.woff2') format('woff2'),
+         url('rubik-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+#outerwrapper {
+	width: 70%;
+	margin-left: auto;
+	margin-right: auto;
+} 
+
+.floatleft { 
+float: left;
+margin-right: 3%;
+
+}
+
+.floatright {
+float: right;
+margin-left: 3%;
+
+}
+
+main, footer { 
+clear: both;
+}
+
+body{
+	background-color: #B8D1EB;
+	color: #000000;
+	font-family: 'Times New Roman', Times, serif;
+}
+
+main{
+	background-color: #C5A98B;
+	padding: 10px;
+}
+
+nav li{
+	list-style-type: none;
+}
+h1{
+	font-family: 'Libre Baskerville', serif;
+	font-size: 3.2em;
+}
+
+h2{
+	font-family: 'rubikregular', sans-serif, Arial;
+	font-weight: normal;
+	font-style: italic;
+}
+
+main li{
+	list-style-image: url(../pictures/tomato.png);
+}
+
+footer{
+	font-size: .75em;
+	text-align: center;
+	background-color: #955E4D;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	text-align: center;
+}
+
+
+
+
