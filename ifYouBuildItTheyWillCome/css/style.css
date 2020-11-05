@@ -1,0 +1,32 @@
+@charset "UTF-8";
+body {
+    background: linear-gradient(to right, #0E76A8 ,#D06AB9);   
+}
+.tableSongs {
+    width: 100%;
+    text-align: left;
+    font-size: 16px;
+    margin-bottom: 3em;
+}
+.tableResteraunts{
+    width: 100%;
+}
+caption {
+    color: white;
+    font-size: 25px;
+}
+th, td {
+    background-color: white; 
+}
+.footer {
+    text-align: center;
+}
+.pink {
+    background-color: indianred;
+}
+.gray {
+    background-color: gray;
+}
+.blue {
+    background-color: lightblue;
+}
