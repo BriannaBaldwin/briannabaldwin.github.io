@@ -1,48 +1,55 @@
 @charset "utf-8";
 /*Brianna Baldwin
   November 19, 2020 */
-  
-/*Imbedded Style Sheet*/
-.bar { 
-    background-color: #152420; 
-}
-main { 
-    background-image: url(../images/heroback.jpg); 
-    background-repeat: no-repeat;
-}
-/*Styles for All Pages*/
+
 nav > ul > li {
-    list-style-type: none;
-    display: inline;
+    display: block;
 }
 nav {
     background-color: #152420; 
 }
-body {
-    background: white;
+h1 {
+    display: none;
 }
+body {
+    background-image: linear-gradient( #2a9ff8, white);
+    background-repeat: no-repeat;
+}
+main, footer {
+    background: transparent;
+}
+#br {
+    display: none;
+}
+hr {
+    display: inherit;
+} 
+/*Imbedded Style Sheet*/
+
 /* ===========================
-Mobile Styles: 0px to 640px
+Desktop Styles:
  =============================
 */
-@media only screen and (max-width: 640px) {
-   nav > ul > li {
-        display: block;
+@media only screen and (min-width: 640px) {
+    .bar { 
+        background-color: #152420; 
     }
-    h1 {
-        display: none;
-    }
-    body {
-        background-image: linear-gradient( #2a9ff8, white);
+    main { 
+        background-image: url(../images/heroback.jpg); 
         background-repeat: no-repeat;
     }
-    main, footer {
-        background: transparent;
+    
+    nav > ul > li {
+        list-style-type: none;
+        display: inline;
     }
-    #br {
-        display: none;
+    nav {
+        background-color: #152420; 
     }
-    hr {
-        display: inherit;
+    body {
+        background: white;
+    }
+    h1 {
+        display: inline;
     }
 }
